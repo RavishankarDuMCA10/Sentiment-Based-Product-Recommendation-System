@@ -1,9 +1,8 @@
-```markdown
-# 🛍️ Sentiment-Based Product Recommendation System
+# 💼 Sentiment-Based Product Recommendation System
 
 A Machine Learning-powered web application that recommends products to users based on sentiment analysis of product reviews. This project integrates Natural Language Processing (NLP) techniques to understand user feedback and leverages collaborative filtering for personalized recommendations.
 
-![Heroku](https://img.shields.io/badge/Deployed-Heroku-7952B3?logo=heroku&logoColor=white)
+![Heroku](https://img.shields.io/badge/Deployed-Heroku-7952B3?logo=heroku\&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3.11-blue.svg)
 ![Flask](https://img.shields.io/badge/Flask-2.x-lightgrey.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
@@ -12,19 +11,18 @@ A Machine Learning-powered web application that recommends products to users bas
 
 ## 📌 Features
 
-- 📊 **Sentiment Analysis** using TextBlob
-- 🤝 **Collaborative Filtering** using cosine similarity
-- 🧠 NLP preprocessing (stopword removal, lemmatization, etc.)
-- 🔍 Review-based product rating analysis
-- 🌐 Flask-based Web Interface
-- 🚀 Deployed on **Heroku** using **Gunicorn**
+* 📊 **Sentiment Analysis** using TextBlob
+* 🤝 **Collaborative Filtering** using cosine similarity
+* 🧠 NLP preprocessing (stopword removal, lemmatization, etc.)
+* 🔍 Review-based product rating analysis
+* 🌐 Flask-based Web Interface
+* 🚀 Deployed on **Heroku** using **Gunicorn**
 
 ---
 
 ## 📂 Project Structure
 
 ```
-
 ├── app/
 │   ├── static/
 │   ├── templates/
@@ -37,8 +35,7 @@ A Machine Learning-powered web application that recommends products to users bas
 ├── Procfile
 ├── README.md
 └── .gitignore
-
-````
+```
 
 ---
 
@@ -46,9 +43,9 @@ A Machine Learning-powered web application that recommends products to users bas
 
 ### 🔧 Prerequisites
 
-- Python 3.11+
-- `pip`
-- `virtualenv` (optional but recommended)
+* Python 3.11+
+* `pip`
+* `virtualenv` (optional but recommended)
 
 ### 🧪 Create a Virtual Environment
 
@@ -56,7 +53,7 @@ A Machine Learning-powered web application that recommends products to users bas
 python3.11 -m venv venv
 source venv/bin/activate   # macOS/Linux
 venv\Scripts\activate      # Windows
-````
+```
 
 ### 📦 Install Dependencies
 
@@ -131,7 +128,7 @@ Then open your browser at `http://localhost:5000`.
 
 ---
 
-## 🧾 Requirements
+## 📟 Requirements
 
 ```txt
 flask
@@ -177,16 +174,3 @@ This project is licensed under the MIT License. See `LICENSE` for details.
 ## 📬 Contact
 
 For issues or suggestions, feel free to open an [issue](https://github.com/yourusername/repo-name/issues) or reach out on [LinkedIn](https://linkedin.com/in/your-profile).
-
-```
-
----
-
-Would you like this to be tailored with:
-
-- Your actual Heroku app URL?
-- GitHub repo name and link?
-- Your name or organization in the footer?
-
-I can personalize that for you too.
-```
