@@ -9,6 +9,12 @@ A Machine Learning-powered web application that recommends products to users bas
 
 ---
 
+## 📌 Problem Statement
+
+E-commerce allows businesses to sell products online without the need for face-to-face customer interaction. Popular platforms like Amazon, Flipkart, Myntra, Paytm, and Snapdeal have set strong examples in this space. Ebuss is a growing e-commerce company offering a wide range of products, including household essentials, books, healthcare items, and electronics. With its expanding market presence, Ebuss aims to compete with these established players. To do so, it must leverage advanced technology and grow rapidly to become a major industry leader.
+
+---
+
 ## 📌 Features
 
 * 📊 **Sentiment Analysis** using TextBlob
@@ -75,10 +81,10 @@ pip install -r requirements.txt
 ## 🚀 Run Locally
 
 ```bash
-python app/main.py
+gunicorn app:app
 ```
 
-Then open your browser at `http://localhost:5000`.
+Then open your browser at `http://localhost:8000`.
 
 ---
 
@@ -124,22 +130,39 @@ Then open your browser at `http://localhost:5000`.
 
 ## 📝 Example
 
-> Search for a product like `"Fitbit Charge 3"` and get real-time recommendations based on positively reviewed items.
+> Search top 5 recommended products using username like `"08dallas"` and get real-time recommendations based on positively reviewed items.
 
 ---
 
 ## 📟 Requirements
 
 ```txt
-flask
+Flask
+nltk
+numpy==1.24.4
+pandas==1.5.3
 gunicorn
-pandas
-numpy
 scikit-learn
-textblob
+xgboost==1.7.6
 ```
-
 (Ensure these are listed in your `requirements.txt`.)
+
+---
+## Technologies Used
+- Numpy - version '1.24.4'
+- Pandas - version '1.5.3'
+- Seaborn version: 0.12.2
+- Matplotlib version: 3.7.1
+- Imbalanced-learn (imblearn) version: 0.12.3
+- NLTK version: 3.9.1
+- PIL (Pillow) version: 9.4.0
+- WordCloud version: 1.9.4
+- Scikit-learn (sklearn) version: 1.3.0
+- Python version (for pprint, pickle, pathlib): 3.11.4
+- Scipy version: 1.15.3
+- XGBoost version: 1.7.6
+
+
 
 ---
 
@@ -173,4 +196,4 @@ This project is licensed under the MIT License. See `LICENSE` for details.
 
 ## 📬 Contact
 
-For issues or suggestions, feel free to open an [issue](https://github.com/yourusername/repo-name/issues) or reach out on [LinkedIn](https://linkedin.com/in/your-profile).
+For issues or suggestions, feel free to reach out on [LinkedIn](https://www.linkedin.com/in/ravi-shankar-k-45a77224/).
