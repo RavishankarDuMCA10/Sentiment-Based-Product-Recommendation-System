@@ -29,7 +29,7 @@ E-commerce allows businesses to sell products online without the need for face-t
 ## 📌 Solution
 
 * **Github:** https://github.com/RavishankarDuMCA10/Sentiment-Based-Product-Recommendation-System
-* **Heroku (Live Application):** https://sentimentbasedproductrecommend-4d986cccbd68.herokuapp.com/predict
+* **Heroku (Live Application):** https://sentimentbasedproductrecommend-4d986cccbd68.herokuapp.com/
 
 ---
 
